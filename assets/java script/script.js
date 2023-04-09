@@ -274,7 +274,7 @@ globeImageEl.addEventListener("click", function () {
         }
       }
 
-      // second api will provide recommended destinations
+      // second api will provide recommend destinations
       fetch(
         `https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=place:${placeId}&apiKey=5105f0bb5b7c4e97bceb5e70a9de8ceb`
       )
@@ -363,4 +363,3 @@ globeImageEl.addEventListener("click", function () {
         });
     });
 });
-
